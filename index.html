@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yashika Nehra — index.html</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --surface-2: #1c2128;
+    --border: #30363d;
+    --text: #c9d1d9;
+    --text-dim: #8b949e;
+    --accent-green: #3fb950;
+    --accent-blue: #58a6ff;
+    --accent-purple: #bc8cff;
+    --accent-orange: #d29922;
+    --mono: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, monospace;
+    --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: inherit; }
+
+  .wrap {
+    max-width: 860px;
+    margin: 40px auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Editor chrome */
+  .editor {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+  }
+
+  .titlebar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 16px;
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .dots { display: flex; gap: 7px; }
+  .dot { width: 11px; height: 11px; border-radius: 50%; }
+  .dot.red { background: #ff5f56; }
+  .dot.yellow { background: #ffbd2e; }
+  .dot.green { background: #27c93f; }
+
+  .tabs {
+    display: flex;
+    font-family: var(--mono);
+    font-size: 12.5px;
+    color: var(--text-dim);
+    gap: 2px;
+    flex: 1;
+    overflow-x: auto;
+  }
+
+  .tab {
+    padding: 4px 12px;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+
+  .tab.active {
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+  }
+
+  .content { padding: 40px 44px 30px; }
+
+  /* Terminal intro */
+  .terminal {
+    font-family: var(--mono);
+    font-size: 14px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin-bottom: 44px;
+    color: var(--accent-green);
+  }
+  .terminal .prompt { color: var(--accent-blue); }
+  .terminal .string { color: var(--accent-orange); }
+  .terminal .comment { color: var(--text-dim); }
+  .caret {
+    display: inline-block;
+    width: 8px;
+    height: 16px;
+    background: var(--accent-green);
+    vertical-align: middle;
+    margin-left: 2px;
+    animation: blink 1s steps(1) infinite;
+  }
+  @keyframes blink { 50% { opacity: 0; } }
+
+  h1 {
+    font-family: var(--mono);
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 6px;
+  }
+  h1 .wave { display: inline-block; animation: wave 2.4s ease-in-out infinite; transform-origin: 70% 70%; }
+  @keyframes wave {
+    0%, 60%, 100% { transform: rotate(0deg); }
+    10%, 30% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    40% { transform: rotate(10deg); }
+    50% { transform: rotate(-4deg); }
+  }
+
+  .subtitle {
+    color: var(--text-dim);
+    font-size: 15px;
+    margin-bottom: 34px;
+  }
+
+  .section-label {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent-purple);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 36px 0 14px;
+  }
+  .section-label::before { content: "//"; color: var(--text-dim); }
+
+  ul.plain { list-style: none; }
+  ul.plain li {
+    position: relative;
+    padding-left: 22px;
+    margin-bottom: 9px;
+    font-size: 15px;
+  }
+  ul.plain li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: var(--accent-green);
+    font-size: 13px;
+  }
+
+  .contact-line {
+    font-size: 15px;
+    margin-top: 4px;
+  }
+  .contact-line a { color: var(--accent-blue); text-decoration: none; border-bottom: 1px solid transparent; }
+  .contact-line a:hover { border-bottom-color: var(--accent-blue); }
+
+  /* Projects */
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+
+  .project-card {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 18px;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+  }
+  .project-card:hover {
+    border-color: var(--accent-blue);
+    transform: translateY(-2px);
+  }
+  .project-card .name {
+    font-family: var(--mono);
+    font-weight: 600;
+    color: #fff;
+    font-size: 14.5px;
+    margin-bottom: 6px;
+  }
+  .project-card .desc {
+    color: var(--text-dim);
+    font-size: 13.5px;
+  }
+
+  /* Links / badges */
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 16px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    font-family: var(--mono);
+    font-size: 13px;
+    text-decoration: none;
+    color: var(--text);
+    transition: all 0.2s ease;
+  }
+  .badge:hover {
+    border-color: var(--dot-color, var(--accent-blue));
+    color: #fff;
+    transform: translateY(-1px);
+  }
+  .badge .dot-icon {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--dot-color, var(--accent-blue));
+  }
+  .badge.leetcode { --dot-color: var(--accent-orange); }
+  .badge.codechef { --dot-color: #a56a49; }
+  .badge.linkedin { --dot-color: var(--accent-blue); }
+  .badge.github { --dot-color: #fff; }
+
+  /* Stats */
+  .stats img {
+    max-width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    display: block;
+    margin-bottom: 12px;
+  }
+  .stats-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .stats-row img { flex: 1; min-width: 260px; }
+
+  footer {
+    margin-top: 44px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-family: var(--mono);
+    font-size: 12.5px;
+    color: var(--text-dim);
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    .content { padding: 28px 22px 24px; }
+    .projects { grid-template-columns: 1fr; }
+    h1 { font-size: 22px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .caret, h1 .wave { animation: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <div class="editor">
+    <div class="titlebar">
+      <div class="dots">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+      </div>
+      <div class="tabs">
+        <span class="tab active">index.html</span>
+        <span class="tab">README.md</span>
+      </div>
+    </div>
+
+    <div class="content">
+
+      <div class="terminal">
+        <span class="prompt">yashika@dev</span>:~$ whoami<br>
+        <span class="comment">&gt;</span> <span class="string">"first-year B.Tech CSE student"</span><span class="caret"></span>
+      </div>
+
+      <h1><span class="wave">👋</span> Hi, I'm Yashika</h1>
+      <p class="subtitle">Building my way toward an AI/ML engineering career — one project and one problem at a time.</p>
+
+      <div class="section-label">about</div>
+      <ul class="plain">
+        <li>🔭 Currently building projects with <strong>React</strong> and sharpening my <strong>DSA</strong> fundamentals</li>
+        <li>🌱 Learning Python and working toward a Machine Learning roadmap</li>
+        <li>💻 Frontend foundation: HTML, CSS, JavaScript, React, Bootstrap</li>
+        <li>🧩 Practicing competitive programming in C++ and solving problems on LeetCode &amp; CodeChef</li>
+      </ul>
+      <p class="contact-line">📫 Reach me on <a href="https://www.linkedin.com/in/yashika-nehra" target="_blank" rel="noopener">LinkedIn</a></p>
+
+      <div class="section-label">projects</div>
+      <div class="projects">
+        <div class="project-card">
+          <div class="name">Recipe Finder</div>
+          <div class="desc">A React app built using TheMealDB API.</div>
+        </div>
+        <div class="project-card">
+          <div class="name">Amazon India Clone</div>
+          <div class="desc">A first-year React project covering component structure, routing, and Git/GitHub workflows.</div>
+        </div>
+      </div>
+
+      <div class="section-label">links</div>
+      <div class="links">
+        <a class="badge leetcode" href="https://leetcode.com/u/Yashika_Nehra/" target="_blank" rel="noopener">
+          <span class="dot-icon"></span> LeetCode
+        </a>
+        <a class="badge codechef" href="https://www.codechef.com/users/yashika_nehra" target="_blank" rel="noopener">
+          <span class="dot-icon"></span> CodeChef
+        </a>
+        <a class="badge linkedin" href="https://www.linkedin.com/in/yashika-nehra" target="_blank" rel="noopener">
+          <span class="dot-icon"></span> LinkedIn
+        </a>
+        <a class="badge github" href="https://github.com/Yashika-Nehra" target="_blank" rel="noopener">
+          <span class="dot-icon"></span> GitHub
+        </a>
+      </div>
+
+      <div class="section-label">stats</div>
+      <div class="stats">
+        <img src="https://github-readme-stats.vercel.app/api?username=Yashika-Nehra&show_icons=true&theme=github_dark&hide_border=true" alt="Yashika's GitHub stats">
+        <div class="stats-row">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashika-Nehra&layout=compact&theme=github_dark&hide_border=true" alt="Top languages">
+        </div>
+      </div>
+
+      <footer>
+        ⭐ Always open to collaborating on frontend and DSA projects!
+      </footer>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
