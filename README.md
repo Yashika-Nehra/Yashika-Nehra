@@ -21,8 +21,19 @@
 
 ## 📊 GitHub Stats
 
-![Yashika's GitHub stats](https://github-readme-stats.vercel.app/api?username=Yashika-Nehra&show_icons=true&theme=default)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashika-Nehra&layout=compact)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Yashika-Nehra&show_icons=true&theme=radical" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashika-Nehra&layout=compact&theme=radical" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yashika-Nehra&theme=radical" width="70%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yashika-Nehra&theme=react-dark" width="90%" />
+</p>
 
 ---
+
 ⭐ Always open to collaborating on frontend and DSA projects!
