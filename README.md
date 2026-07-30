@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yashika-Nehra&theme=radical" width="70%" />
+  <img src="https://streak-stats.demolab.com/?user=Yashika-Nehra&theme=radical" width="70%" />
 </p>
 
 <p align="center">
