@@ -1,6 +1,6 @@
 # Hi, I'm Yashika 
 
-B.Tech CSE student interested in **Full-Stack Development, Cloud Computing, and Blockchain**, while building a strong foundation in problem-solving and software engineering.
+B.Tech CSE student interested in **Full-Stack Development and Cloud Computing**, while building a strong foundation in problem-solving and software engineering.
 
 -  Currently building projects with **React** and JavaScript
 -  Learning **Node.js, Express, and backend development**
@@ -76,4 +76,4 @@ Currently learning how to contribute to open-source projects and work with:
 
 ---
 
- Always open to collaborating on frontend and DSA projects!
+Always learning, building, and improving.
