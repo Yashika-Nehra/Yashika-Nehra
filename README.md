@@ -15,23 +15,23 @@ B.Tech CSE student interested in **Full-Stack Development, Cloud Computing, and 
 ### Recipe Finder
 A React application for searching and exploring recipes using the **TheMealDB API**.
 
-**- React 
+- React 
 - JavaScript 
-- REST API**
+- REST API
 
 ### Amazon India Clone
 A React-based e-commerce project built while learning **component-based architecture, routing, and Git/GitHub workflows**.
 
-**- React 
+- React 
 - JavaScript 
-- CSS**
+- CSS
 
 ### Personal Portfolio
 A responsive portfolio website showcasing my projects, skills, and learning journey.
 
-**- HTML 
+- HTML 
 - CSS 
-- JavaScript**
+- JavaScript
 
 ##  Currently Learning
 
