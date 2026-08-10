@@ -1,16 +1,50 @@
 # Hi, I'm Yashika 
 
- First-year B.Tech CSE student, currently exploring the **AI/ML Engineer** path while building a strong foundation in DSA, web development, and problem-solving.
+B.Tech CSE student interested in **Full-Stack Development, Cloud Computing, and Blockchain**, while building a strong foundation in problem-solving and software engineering.
 
--  Currently building projects with **React** and sharpening my **DSA** fundamentals
--  Learning Python and working toward a Machine Learning roadmap
--  Frontend foundation: HTML, CSS, JavaScript, React, Bootstrap
--  Practicing competitive programming in C++ and solving problems on LeetCode & CodeChef
--  Reach me on [LinkedIn](https://www.linkedin.com/in/yashika-nehra)
+-  Currently building projects with **React** and JavaScript
+-  Learning **Node.js, Express, and backend development**
+-  Exploring **AWS and Cloud Computing**
+-  Strengthening my **DSA and problem-solving** skills with C++
+-  Exploring **Blockchain and Web3**
+-  Interested in contributing to **Open Source**
+-  [Connect with me on LinkedIn](https://www.linkedin.com/in/yashika-nehra)
 
 ##  Featured Projects
-- **Recipe Finder** — a React app built using TheMealDB API
-- **Amazon India Clone** — a first-year React project covering component structure, routing, and Git/GitHub workflows
+
+###  Recipe Finder
+A React application for searching and exploring recipes using the **TheMealDB API**.
+
+**React • JavaScript • REST API**
+
+###  Amazon India Clone
+A React-based e-commerce project built while learning **component-based architecture, routing, and Git/GitHub workflows**.
+
+**React • JavaScript • CSS**
+
+###  Personal Portfolio
+A responsive portfolio website showcasing my projects, skills, and learning journey.
+
+**HTML • CSS • JavaScript**
+
+##  Currently Learning
+
+- Full-Stack Development
+- Node.js & Express
+- REST APIs & Databases
+- AWS / Cloud Computing
+- Git & GitHub
+- DSA & Problem Solving
+
+##  Open Source
+
+Currently learning how to contribute to open-source projects and work with:
+
+- Git branches
+- Issues
+- Pull Requests
+- Code Reviews
+- Collaborative development
 
 ##  Find Me Around the Web
 
