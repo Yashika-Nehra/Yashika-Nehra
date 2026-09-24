@@ -62,8 +62,8 @@ Currently learning how to contribute to open-source projects and work with:
 ##  GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Yashika-Nehra&show_icons=true&theme=radical" width="48%" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Yashika-Nehra&layout=compact&theme=radical" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Yashika-Nehra&show_icons=true&theme=radical" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashika-Nehra&layout=compact&theme=radical" width="48%" />
 </p>
 
 <p align="center">
@@ -73,7 +73,6 @@ Currently learning how to contribute to open-source projects and work with:
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yashika-Nehra&theme=react-dark" width="90%" />
 </p>
-
 ---
 
 Always learning, building, and improving.
