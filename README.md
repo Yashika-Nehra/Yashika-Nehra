@@ -1,48 +1,132 @@
-# Hi, I'm Yashika 
+# Hi, I'm Yashika
 
-B.Tech CSE student interested in **Full-Stack Development and Cloud Computing**, while building a strong foundation in problem-solving and software engineering.
+B.Tech CSE student interested in **Full-Stack Development and Cloud Computing**, while building a strong foundation in **DSA, problem-solving, and software engineering**.
 
--  Currently building projects with **React** and JavaScript
--  Learning **Node.js, Express, and backend development**
--  Exploring **AWS and Cloud Computing**
--  Strengthening my **DSA and problem-solving** skills with C++
--  Exploring **Blockchain and Web3**
--  Interested in contributing to **Open Source**
--  [Connect with me on LinkedIn](https://www.linkedin.com/in/yashika-nehra)
+- Building projects with **React, JavaScript, and modern web technologies**
+- Learning **Node.js, Express, REST APIs, and backend development**
+- Exploring **AWS and Cloud Computing**
+- Strengthening my **DSA and problem-solving** skills with C++
+- Building practical projects to improve my development skills
+- Exploring **Open Source and collaborative development**
+- [Connect with me on LinkedIn](https://www.linkedin.com/in/yashika-nehra)
 
-##  Featured Projects
+---
 
-### Recipe Finder
-A React application for searching and exploring recipes using the **TheMealDB API**.
-
-- React 
-- JavaScript 
-- REST API
+## Featured Projects
 
 ### Amazon India Clone
-A React-based e-commerce project built while learning **component-based architecture, routing, and Git/GitHub workflows**.
 
-- React 
-- JavaScript 
-- CSS
+A React-based e-commerce website built to practice **component-based architecture, routing, product management, and Git/GitHub workflows**.
 
-### Personal Portfolio
-A responsive portfolio website showcasing my projects, skills, and learning journey.
-
-- HTML 
-- CSS 
+**Tech Stack:**
+- React
 - JavaScript
+- CSS
+- React Router
+- Git & GitHub
 
-##  Currently Learning
+[View Repository](https://github.com/Yashika-Nehra/amazon-clone)
+
+---
+
+### DSA Practice
+
+A collection of my **Data Structures and Algorithms implementations and practice programs in C++**.
+
+Topics include:
+
+- Arrays & Strings
+- Searching Algorithms
+- Sorting Algorithms
+- Linked Lists
+- Stacks & Queues
+- Circular Queues & Deques
+- Trees
+- Recursion
+- Hashing
+
+**Language:** C++
+
+[View Repository](https://github.com/Yashika-Nehra/DSA-)
+
+---
+
+### Emberhold — Life RPG
+
+A full-stack web application built around a **gamified life-management/RPG experience**.
+
+The project includes features such as authentication, dashboard functionality, quests, ranks, rewards, and a themed user interface.
+
+**Tech Stack:**
+- React
+- JavaScript
+- Node.js
+- Express
+- Database
+- REST APIs
+- Git & GitHub
+
+[View Repository](https://github.com/Yashika-Nehra/Life-RPG-web-application)
+
+---
+
+### YojanaSathi
+
+A web project focused on making information about **government schemes and services** easier to access and understand.
+
+**Tech Stack:**
+- HTML
+- CSS
+- JavaScript
+- Web Development
+
+[View Repository](https://github.com/Yashika-Nehra/YojanaSathi)
+
+---
+
+## Tech Stack
+
+### Languages
+
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### Frontend
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+### Backend & Cloud
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+
+### Tools
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
+---
+
+## Currently Learning
 
 - Full-Stack Development
 - Node.js & Express
-- REST APIs & Databases
+- REST APIs
+- Databases
 - AWS / Cloud Computing
+- Data Structures & Algorithms
 - Git & GitHub
-- DSA & Problem Solving
+- Open Source Contribution
 
-##  Open Source
+---
+
+## Open Source
 
 Currently learning how to contribute to open-source projects and work with:
 
@@ -52,27 +136,40 @@ Currently learning how to contribute to open-source projects and work with:
 - Code Reviews
 - Collaborative development
 
-##  Find Me Around the Web
+---
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Yashika_Nehra/)
-[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/yashika_nehra)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashika-nehra)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Yashika-Nehra)
-
-##  GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Yashika-Nehra&show_icons=true&theme=radical" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashika-Nehra&layout=compact&theme=radical" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Yashika-Nehra&theme=radical" width="70%" />
-</p>
+## GitHub Activity
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yashika-Nehra&theme=react-dark" width="90%" />
 </p>
+
 ---
 
-Always learning, building, and improving.
+## Coding Profiles
+
+<p align="center">
+  <a href="https://leetcode.com/u/Yashika_Nehra/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  </a>
+  <a href="https://www.codechef.com/users/yashika_nehra">
+    <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+  </a>
+</p>
+
+---
+
+## Find Me Around the Web
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/yashika-nehra">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/Yashika-Nehra">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+---
+
+### Always learning, building, and improving.
