@@ -138,7 +138,16 @@ Currently learning how to contribute to open-source projects and work with:
 
 ---
 
-## GitHub Activity
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Yashika-Nehra&show_icons=true&theme=radical" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashika-Nehra&layout=compact&theme=radical" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Yashika-Nehra&theme=radical" width="70%" />
+</p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yashika-Nehra&theme=react-dark" width="90%" />
